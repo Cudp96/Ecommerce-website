@@ -18,7 +18,7 @@ const Navbar = () => {
   })
 
   return (
-    <header className={`${isActive ? "bg-white py-4 shadow-md" : "bg-none py-6"} fixed w-full z-10 transition-all duration-300`}>
+    <header className={`${isActive ? "bg-white py-4 shadow-md" : "bg-none py-6"} fixed w-full p-5 md:p-4 z-10 transition-all duration-300`}>
       <div className="container flex mx-auto items-center justify-between h-full ">
         <Link to={"/"}>
           <div>
